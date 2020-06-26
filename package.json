@@ -4,11 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "coverage": "coveralls < coverage/lcov.info"
   },
   "jest": {
-    "collectCoverage": true,
-    "coverageReporters": ["html", "text"]
+    "collectCoverage": true
   },
   "repository": {
     "type": "git",
@@ -22,7 +22,8 @@
   },
   "homepage": "https://github.com/valentinogagliardi/getting-started-with-jest#readme",
   "devDependencies": {
-    "jest": "^24.9.0",
+    "coveralls": "^3.1.0",
+    "jest": "^26.1.0",
     "prettier": "^1.18.2"
   }
 }
