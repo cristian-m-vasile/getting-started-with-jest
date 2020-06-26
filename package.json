@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "coverage": "coveralls < coverage/lcov.info"
+    "push-coverage": "coveralls < coverage/lcov.info"
   },
   "jest": {
     "collectCoverage": true
