@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
-    "push-coverage": "coveralls < coverage/lcov.info"
+    "test": "jest"
   },
   "jest": {
     "collectCoverage": true
