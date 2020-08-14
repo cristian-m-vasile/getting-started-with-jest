@@ -16,6 +16,6 @@ jobs:
             - sonarcloud/scan
 workflows:
     build-and-test:
-      context: SonarCloud
       jobs:
-        - build-and-test
+        - build-and-test:
+          context: SonarCloud
